@@ -10,5 +10,11 @@ S pomočjo programskega okolja STM32CubeIDE in HAL knjižnicami sprogramirajte m
 - Poleg pinov se izpiše **ADC1_IN1,2,3**.  
 - Izbrana Vrednost parametra je **4**.  
 - Privzeta vrednost *Number of Conversio* je **1**.  
-- tvz = 92.5 +12 = 104.5  
--  
+- **tvz** = 6,35μs 
+
+
+## Pinout
+[Pinout](media/Screenshot_20221025_105007.png)
+
+## Slika Vezja
+[SlikaVezja]

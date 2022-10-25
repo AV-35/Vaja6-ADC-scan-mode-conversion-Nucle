@@ -60,8 +60,8 @@ all: main-build
 main-build: Vaja6-ADC-scan-mode-conversion-Nucle.elf secondary-outputs
 
 # Tool invocations
-Vaja6-ADC-scan-mode-conversion-Nucle.elf Vaja6-ADC-scan-mode-conversion-Nucle.map: $(OBJS) $(USER_OBJS) C:\Users\U213.03\Documents\AV_JF\GitHub\Vaja6-ADC-scan-mode-conversion-Nucle\Vaja6-ADC\STM32L476RGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Vaja6-ADC-scan-mode-conversion-Nucle.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\U213.03\Documents\AV_JF\GitHub\Vaja6-ADC-scan-mode-conversion-Nucle\Vaja6-ADC\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Vaja6-ADC-scan-mode-conversion-Nucle.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Vaja6-ADC-scan-mode-conversion-Nucle.elf Vaja6-ADC-scan-mode-conversion-Nucle.map: $(OBJS) $(USER_OBJS) C:\Users\Vidmar\Documents\GitHub\Vaja6-ADC-scan-mode-conversion-Nucle\Vaja6-ADC\STM32L476RGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Vaja6-ADC-scan-mode-conversion-Nucle.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Vidmar\Documents\GitHub\Vaja6-ADC-scan-mode-conversion-Nucle\Vaja6-ADC\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Vaja6-ADC-scan-mode-conversion-Nucle.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
