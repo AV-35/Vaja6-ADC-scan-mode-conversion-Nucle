@@ -24,5 +24,5 @@ S pomočjo programskega okolja STM32CubeIDE in HAL knjižnicami sprogramirajte m
 
 
 ## Komentar
-- Sampling Time je 247,5 sej je najblizje 239,5.
+- Sampling Time je 247,5 sej je najbližje 239,5.
 - Koda ne delje. Nimam niti malo pojma zakaj. Vrednost pri vseh treh vrednostih je enaka.
