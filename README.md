@@ -11,6 +11,9 @@ S pomočjo programskega okolja STM32CubeIDE in HAL knjižnicami sprogramirajte m
 - Izbrana Vrednost parametra je **4**.  
 - Privzeta vrednost *Number of Conversio* je **1**.  
 - **tvz** = 6,35μs 
+- **DMA** = Direct memory access (Direkten dostop spomina).
+  
+
 
 
 ## Pinout

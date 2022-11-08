@@ -96,8 +96,6 @@ int main(void)
   MX_USART2_UART_Init();
   MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
-  HAL_ADC_Start_DMA(&hadc1, (uint32_t *)adcValArray, 1);
-  HAL_ADC_Start_DMA(&hadc1, (uint32_t *)adcValArray, 2);
   HAL_ADC_Start_DMA(&hadc1, (uint32_t *)adcValArray, 3);
 
   /* USER CODE END 2 */
